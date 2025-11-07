@@ -1,2 +1,7 @@
 /target/*
-!/target/**/*.exe
+!/target/debug/
+/target/debug/*
+!/target/debug/*.exe
+!/target/release/
+/target/release/*
+!/target/release/*.exe
