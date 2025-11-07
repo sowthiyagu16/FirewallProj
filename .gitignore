@@ -5,12 +5,17 @@
 *.userosscache
 *.sln.docstates
 
-# Build results
-[Dd]ebug/
+# Build results - ignore everything in Debug/Release except .exe files
+[Dd]ebug/*
+[Rr]elease/*
+![Dd]ebug/*.exe
+![Rr]elease/*.exe
 [Dd]ebugPublic/
-[Rr]elease/
 [Rr]eleases/
-x64/
+x64/[Dd]ebug/*
+x64/[Rr]elease/*
+!x64/[Dd]ebug/*.exe
+!x64/[Rr]elease/*.exe
 x86/
 [Ww]in32/
 [Aa]rm/
